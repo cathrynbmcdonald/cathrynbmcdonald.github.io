@@ -219,7 +219,7 @@ main {
     letter-spacing: 0.1rem;
     text-align: center;
     /* text-shadow: 2px 2px 5px gray; */
-    position: absolute;
+/*     position: absolute; */
     /* bottom: -220px;
     left: -2000px; */
     font-family: serif;
@@ -245,5 +245,4 @@ main {
     position: absolute;
     bottom: 0;
     width: 100%;
-    z-index: -1;
   }
