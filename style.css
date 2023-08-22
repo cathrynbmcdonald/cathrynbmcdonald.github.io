@@ -224,6 +224,7 @@ main {
     left: -2000px; */
     font-family: serif;
     animation: showHello 1.5s ease-in-out 0s forwards;
+    z-index: -1;
   }
 
   @keyframes showHello {
