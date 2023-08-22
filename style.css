@@ -246,3 +246,9 @@ main {
     bottom: 0;
     width: 100%;
   }
+
+@media screen and (min-width: 481px) {
+    .footer__h3 {
+      font-size: 2rem;
+    }
+  }
