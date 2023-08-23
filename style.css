@@ -8,10 +8,8 @@
 
 body {
   min-height: 100vh;
-  /* position: relative; */
   background-color: cadetblue;
   font-family: Arial, Helvetica, sans-serif;
-  /* border-bottom: 40px solid #333; */
   display: flex;
   flex-direction: column;
 }
@@ -22,14 +20,12 @@ header, footer {
 
 .main__h1,
 .main__h2 {
-  /* text-align: center; */
   color: #edf4f4;
 }
 
 .main__h1 {
   letter-spacing: 0.4rem;
-  font-size: 4em;
-  /* padding-top: 3em;; */
+  font-size: 3em;
 }
 
 .main__h2{
@@ -59,18 +55,11 @@ font-size: 1.3em;
 
 main {
   flex-grow: 1;
-  /* position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 .footer__h1 {
   height: 30px;
   background-color: #152323;
-  /* position: absolute;
-  bottom: 0;
-  width: 100%; */
 }
 
 .down-arrow {
@@ -92,17 +81,9 @@ main {
     color:rgb(237, 244, 244, 0.1);
     padding-bottom: 1.1em;
     padding-top: 0.5em;
-    /* position: absolute; */
-    /* left: 50%; */
     letter-spacing: 0.1rem;
-    /* text-align: center; */
-    /* text-shadow: 2px 2px 5px gray; */
-/*     position: absolute; */
-    /* bottom: -220px;
-    left: -2000px; */
     font-family: serif;
     animation: showHello 1.5s ease-in-out 0s forwards;
-/*     z-index: -1; */
   }
 
   @keyframes showHello {
@@ -111,18 +92,14 @@ main {
     }
     80% {
       translate: 5px;
-      /* scale: 120%; */
     }
     100% {
       translate: 0;
-      /* scale: 100%; */
     }
   }
 
   footer {
-    /* position: absolute; */
     bottom: 0;
-    /* width: 100%; */
   }
 
   header, nav, main, footer {
