@@ -12,10 +12,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: -1;
+  text-align: center;
 }
 
 header, footer {
-  position: sticky;
+  /* position: sticky; */
 }
 
 .main__h1,
@@ -25,7 +30,7 @@ header, footer {
 
 .main__h1 {
   letter-spacing: 0.4rem;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .main__h2{
@@ -34,7 +39,7 @@ font-size: 1.3em;
 
 .header {
   background-color: rgb(237, 244, 244);
-  top: 0;
+  /* top: 0; */
 }
 
 .header__ul {
@@ -54,7 +59,7 @@ font-size: 1.3em;
 }
 
 main {
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .footer__h1 {
@@ -98,15 +103,16 @@ main {
     }
   }
 
-  footer {
+  /* footer {
     bottom: 0;
-  }
+  } */
 
   header, nav, main, footer {
-    display: grid;
+    width: 100%;
+    /* display: grid;
     place-content: center;
     grid-template-columns: 100%;
-    text-align: center;
+    text-align: center; */
   }
 
 @media screen and (min-width: 480px) {
