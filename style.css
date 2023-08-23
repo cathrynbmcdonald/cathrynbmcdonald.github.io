@@ -29,7 +29,7 @@ header, footer {
 .main__h1 {
   letter-spacing: 0.4rem;
   font-size: 4em;
-  padding-top: 3em;;
+  /* padding-top: 3em;; */
 }
 
 .main__h2{
@@ -127,7 +127,7 @@ main {
 
   header, nav, main, footer {
     display: grid;
-    /* place-content: center; */
+    place-content: center;
     grid-template-columns: 100%;
     text-align: center;
   }
