@@ -121,4 +121,8 @@ main {
     }
   }
 
-  @media screen and (max-height: )
+  @media screen and (max-height: 667px) {
+    .down-arrow {
+      display: none;
+    }
+  }
