@@ -8,15 +8,21 @@
 
 body {
   min-height: 100vh;
-  position: relative;
+  /* position: relative; */
   background-color: cadetblue;
   font-family: Arial, Helvetica, sans-serif;
   /* border-bottom: 40px solid #333; */
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  position: sticky;
 }
 
 .main__h1,
 .main__h2 {
-  text-align: center;
+  /* text-align: center; */
   color: #edf4f4;
 }
 
@@ -31,6 +37,7 @@ font-size: 1.3em;
 
 .header {
   background-color: rgb(237, 244, 244);
+  top: 0;
 }
 
 .header__ul {
@@ -50,18 +57,19 @@ font-size: 1.3em;
 }
 
 main {
-  position: absolute;
+  flex-grow: 1;
+  /* position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .footer__h1 {
   height: 30px;
   background-color: #152323;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100%; */
 }
 
 .down-arrow {
@@ -81,11 +89,11 @@ main {
     background-color: rgba(95, 158, 160, 0);
     font-size: 3rem;
     color:rgb(237, 244, 244, 0.1);
-    padding-bottom: 1.4em;
+    padding-bottom: 1.1em;
     /* position: absolute; */
     /* left: 50%; */
     letter-spacing: 0.1rem;
-    text-align: center;
+    /* text-align: center; */
     /* text-shadow: 2px 2px 5px gray; */
 /*     position: absolute; */
     /* bottom: -220px;
@@ -110,9 +118,16 @@ main {
   }
 
   footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
-    width: 100%;
+    /* width: 100%; */
+  }
+
+  header, nav, main, footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
   }
 
 @media screen and (min-width: 480px) {
