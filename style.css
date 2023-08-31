@@ -15,7 +15,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* z-index: -1; */
   text-align: center;
 }
 
@@ -39,7 +38,6 @@ font-size: 1.3em;
 
 .header {
   background-color: rgb(237, 244, 244);
-  /* top: 0; */
 }
 
 .header__ul {
@@ -57,10 +55,6 @@ font-size: 1.3em;
 .header__ul a:hover,
 .header__ul a:focus {
   color: cadetblue;
-}
-
-main {
-  /* flex-grow: 1; */
 }
 
 .header__h1 {
@@ -83,7 +77,7 @@ main {
 
   .footer__h3 {
     background-color: rgba(95, 158, 160, 0);
-    font-size: 3rem;
+    font-size: 5.5rem;
     color:rgb(237, 244, 244, 0.1);
     padding-bottom: 1.8em;
     padding-top: 0.5em;
@@ -104,16 +98,8 @@ main {
     }
   }
 
-  /* footer {
-    bottom: 0;
-  } */
-
   header, nav, main, footer {
     width: 100%;
-    /* display: grid;
-    place-content: center;
-    grid-template-columns: 100%;
-    text-align: center; */
   }
 
 @media screen and (min-width: 480px) {
