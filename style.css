@@ -79,8 +79,8 @@ font-size: 1.3em;
     background-color: rgba(95, 158, 160, 0);
     font-size: 5.5rem;
     color:rgb(237, 244, 244, 0.1);
-    padding-bottom: 1.8em;
-    padding-top: 0.5em;
+    padding-bottom: 2.8em;
+    /* padding-top: 0.5em; */
     letter-spacing: 0.1rem;
     font-family: serif;
     animation: showHello 1.5s ease-in-out 0s forwards;
@@ -104,7 +104,8 @@ font-size: 1.3em;
 
 @media screen and (min-width: 480px) {
     .footer__h3 {
-      font-size: 5.5rem;
+      /* font-size: 5.5rem; */
+      padding-bottom: 1.8em;
     }
   }
 
