@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #edf4f4;
+  position: sticky;
+}
+
+.header__ul {
+  padding: 1rem;
+  font-size: 1.1em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__ul a,
+.header__ul a:visited {
+  color: #333;
+  text-decoration: none;
+}
+.header__ul a:hover,
+.header__ul a:focus {
+  color: cadetblue;
+}
+
+.header__h1 {
+  height: 20px;
+  background-color: #555;
+}
+
+.form__h1 {
+  margin-bottom: 2rem;
+}

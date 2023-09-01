@@ -39,7 +39,7 @@ font-size: 1.3em;
 
 .header__ul {
   padding: 1rem;
-  font-size: 1.1em;
+  font-size: 0.8em;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
@@ -105,6 +105,9 @@ font-size: 1.3em;
     .footer__h3 {
       font-size: 6.5rem;
       padding-bottom: 3em;
+    }
+    .header__ul {
+      font-size: 1.1em;
     }
   }
 
