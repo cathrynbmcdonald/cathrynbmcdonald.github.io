@@ -18,10 +18,6 @@ body {
   text-align: center;
 }
 
-header, footer {
-  position: sticky;
-}
-
 .main__h1,
 .main__h2 {
   color: #edf4f4;
@@ -37,7 +33,8 @@ font-size: 1.3em;
 }
 
 .header {
-  background-color: rgb(237, 244, 244);
+  background-color: #edf4f4;
+  position: sticky;
 }
 
 .header__ul {
@@ -49,7 +46,7 @@ font-size: 1.3em;
 }
 .header__ul a,
 .header__ul a:visited {
-  color: #152323;
+  color: #333;
   text-decoration: none;
 }
 .header__ul a:hover,
@@ -59,7 +56,7 @@ font-size: 1.3em;
 
 .header__h1 {
   height: 20px;
-  background-color: #152323;
+  background-color: #555;
 }
 
 /* .down-arrow {
@@ -74,10 +71,12 @@ font-size: 1.3em;
   bottom: 5px;
   margin-left: -25px;
   } */
-
+  footer {
+    position: sticky;
+  }
   .footer__h3 {
     background-color: rgba(95, 158, 160, 0);
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color:rgb(237, 244, 244, 0.1);
     padding-bottom: 2.1em;
     /* padding-top: 0.5em; */
@@ -104,8 +103,8 @@ font-size: 1.3em;
 
 @media screen and (min-width: 480px) {
     .footer__h3 {
-      font-size: 5.5rem;
-      padding-bottom: 1.8em;
+      font-size: 6.5rem;
+      padding-bottom: 3em;
     }
   }
 
